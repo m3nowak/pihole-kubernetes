@@ -46,6 +46,7 @@ serviceDns:
 
   # -- Optional node port for the DNS service
   nodePort: ""
+  nodePortUdp: ""
 
   # -- `spec.externalTrafficPolicy` for the DHCP Service
   externalTrafficPolicy: Local
